@@ -1,0 +1,12 @@
+
+{
+  "type": "record",
+  "name": "Purchase",
+  "namespace": "example",
+  "fields": [
+    {"name": "purchase_id", "type": "string"},
+    {"name": "product_id", "type": "string"},
+    {"name": "quantity", "type": "int"},
+    {"name": "purchase_ts", "type": "long"}
+  ]
+}

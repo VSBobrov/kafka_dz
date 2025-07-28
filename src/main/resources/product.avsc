@@ -1,0 +1,11 @@
+
+{
+  "type": "record",
+  "name": "Product",
+  "namespace": "example",
+  "fields": [
+    {"name": "product_id", "type": "string"},
+    {"name": "name", "type": "string"},
+    {"name": "price", "type": "double"}
+  ]
+}
